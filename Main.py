@@ -6,3 +6,5 @@ with open('GroceryDictionary.csv', mode='r') as infile:
         writer = csv.writer(outfile)
         mydict = {rows[0]:rows[1] for rows in reader}
         
+for key in mydict:
+    print key, 'corresponds to', mydict[key]
