@@ -1,7 +1,7 @@
 import csv
 
 print 'read dictionary'
-with open('GroceryDictionary.csv', mode='r') as infile:
+with open('GroceryDictionary.txt', mode='r') as infile:
     print 'read 1'
     reader = csv.reader(infile)
     mydict = dict(reader)
