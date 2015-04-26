@@ -1,5 +1,2 @@
-a,apple
-b,butter
-c,cheese
-d,donuts
-e,eggs
+a,appls
+b,bab
