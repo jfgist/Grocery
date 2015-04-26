@@ -14,3 +14,9 @@ with open('GroceryDictionary.txt', mode='r') as infile:
 print 'iterate'
 for key in mydict:
     print key
+    
+while 1:
+    val = sys.stdin.read(1)
+    if (val == 'q'):
+        return
+    print(mydict[val])
