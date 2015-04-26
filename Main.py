@@ -1,4 +1,5 @@
 import csv
+import sys
 
 print 'read dictionary'
 with open('GroceryDictionary.txt', mode='r') as infile:
