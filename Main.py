@@ -18,5 +18,5 @@ for key in mydict:
 while 1:
     val = sys.stdin.read(1)
     if (val == 'q'):
-        return
+        sys.exit()
     print(mydict[val])
